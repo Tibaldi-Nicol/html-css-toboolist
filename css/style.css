@@ -106,7 +106,7 @@ h2{
     
 }
 
-/*regolo i singoli elementi della lista*/
+/*regolo i singoli elementi della lista* 
 .check{
    color: green;
    width: 20px;
@@ -129,5 +129,36 @@ h2{
 /*in questo modo gli elemnti sono piu distanziati e leggibili*/
 
 li{
-    margin: 8px 0; /*8px sopra sotto, destra sinistra 0*/
+    margin: 15px 0; /*8px sopra sotto, destra sinistra 0*/
+}
+
+/*do stile a q1goals*/
+
+.viola{
+    color: white;
+    background-color: #8A2BE2;
+    border-radius: 12px;
+    padding: 4px 6px;
+    border-style: none;
+    ;
+}
+
+/*stile a recruiting*/
+.verde{
+    color: white;
+    background-color: #239e7fe0;
+    border-radius: 12px;
+    padding: 4px 6px;
+    border-style: none;
+    ;
+}
+
+/*colore a mobile*/
+.arancione{
+    color: white;
+    background-color: #FFA500;
+    border-radius: 12px;
+    padding: 4px 6px;
+    border-style: none;
+    ;
 }
