@@ -7,3 +7,33 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
+/*metto il titolo a fianco al logo facendo diventare h1 inline*/
+h1{
+    display: inline-block; /*fa diventare l'elemento inline*/
+    font-size: 2.5rem;      /*dimensione del font*/
+    text-align: center;
+    padding-left: 5PX;
+    vertical-align: middle; /*centra il titolo*/
+}
+
+    
+
+
+/*Regolo header*/
+
+header{
+    background-color:  #f1f1f1;
+    padding: 10px 0;   /*padding top e bottom 10px, padding right e left 0*/
+    
+    
+}
+
+/*Regolo immagine logo*/
+
+img{
+    padding-left: 10px;
+    vertical-align: middle; /*centra l'immagine*/
+
+}
+
