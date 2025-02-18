@@ -19,13 +19,15 @@ h1{
     vertical-align: middle; /*centra il titolo*/
 }
 
-    
+    body{
+        background-color: #e0e0e0;
+    }
 
 
 /*Regolo header*/
 
 header{
-    background-color:  #f1f1f1;
+    background-color:  white;
     padding: 10px 0;   /*padding top e bottom 10px, padding right e left 0*/
     
     
@@ -93,7 +95,7 @@ h2{
     width: 700px; /*larghezza del supercontainer*/
     margin: 0 auto; /*centra il supercontainer*/
     background-color: rgb(255, 255, 255); /*sfondo bianco, usato solo per capire la centratura del container*/
-    ;
+    border-radius: 6px;
 }
 
 /*regolo la lista*/
@@ -106,13 +108,15 @@ h2{
     
 }
 
-/*regolo i singoli elementi della lista* 
+/*regolo i singoli elementi della lista*/
 .check{
    color: green;
-   width: 20px;
-   height: 20px;
-    border-radius: 50%;
+  
 
+}
+
+.cross{
+    color: red;
 }
 /*sistemo la scritta editorial nella lista*/
 .blue{
@@ -157,6 +161,28 @@ li{
 .arancione{
     color: white;
     background-color: #FFA500;
+    border-radius: 12px;
+    padding: 4px 6px;
+    border-style: none;
+    ;
+}
+
+/*stile a website*/
+.rosa{
+    color: white;
+    background-color: #FF69B4;
+    border-radius: 12px;
+    padding: 4px 6px;
+    border-style: none;
+    ;
+}
+
+/*
+sales sara giallo*/
+
+.giallo{
+    color: white;
+    background-color: #FFD700;
     border-radius: 12px;
     padding: 4px 6px;
     border-style: none;
