@@ -111,12 +111,30 @@ h2{
 /*regolo i singoli elementi della lista*/
 .check{
    color: green;
+   border: 1px solid currentColor;
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   display: inline-block;
+   font-size: 10px;
+   line-height: 15px;
+   vertical-align: middle;
+   text-align: center;
   
 
 }
-
+/*per fare il cerchio intorno alla x */
 .cross{
     color: red;
+   border: 1px solid currentColor;
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   display: inline-block;
+   font-size: 10px;
+   line-height: 15px;
+   vertical-align: middle;
+   text-align: center;
 }
 /*sistemo la scritta editorial nella lista*/
 .blue{
