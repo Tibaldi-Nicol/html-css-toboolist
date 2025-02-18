@@ -106,3 +106,28 @@ h2{
     
 }
 
+/*regolo i singoli elementi della lista*/
+.check{
+   color: green;
+   width: 20px;
+   height: 20px;
+    border-radius: 50%;
+
+}
+/*sistemo la scritta editorial nella lista*/
+.blue{
+
+    color: white;
+    background-color: #45AFED;
+    border-radius: 12px;
+    padding: 4px 6px;
+    border-style: none;
+    ;
+
+}
+
+/*in questo modo gli elemnti sono piu distanziati e leggibili*/
+
+li{
+    margin: 8px 0; /*8px sopra sotto, destra sinistra 0*/
+}
