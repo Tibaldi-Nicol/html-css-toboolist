@@ -39,7 +39,7 @@ img{
 
 }
 
-/*forma e colore bottoni*/
+/*posizione bottoni nella lista*/
 .bottoni{
     text-align: left; /*allinea a sinistra*/
     padding-left: 10px; /*padding a sinistra del container */
@@ -48,14 +48,35 @@ img{
     
 }
 
+/*Divido i bottoni in 2 id, cosi da modificarli separatamente*/
+
+#bottone-blu{
+    background-color: #45AFED; /*colore bottone*/
+    border-radius: 4px;
+    padding: 4px 6px;
+    border-style: none;
+    color: white; /*colore testo*/
+}
+
+#bottone-grigio{
+    background-color: #e0e0e0; /*colore bottone*/
+    border-radius: 4px;
+    padding: 4px 6px;
+    border-style: none;
+    color: white;     
+    /*colore testo*/
+    
+}
+
 
 /*con classe container porto centrale tutta la lista*/
 .container{
     text-align: center;
     margin: 0 auto; /*centra la lista*/
-    background-color: #e0e0e0;
+    background-color: white;
     margin-top: 40px;
     border-radius: 10px;
+    
 
 }
 
