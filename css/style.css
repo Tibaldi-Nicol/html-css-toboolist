@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /*inserendo qui il list type none tolgo i pallini dalla lista*/
+    list-style-type: none;
 
 }
 
@@ -35,5 +37,51 @@ img{
     padding-left: 10px;
     vertical-align: middle; /*centra l'immagine*/
 
+}
+
+/*forma e colore bottoni*/
+.bottoni{
+    text-align: left; /*allinea a sinistra*/
+    padding-left: 10px; /*padding a sinistra del container */
+    padding-top: 10px;
+
+    
+}
+
+
+/*con classe container porto centrale tutta la lista*/
+.container{
+    text-align: center;
+    margin: 0 auto; /*centra la lista*/
+    background-color: #e0e0e0;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+
+/*da block a inline*/
+
+h2{
+    display: inline-block;
+}
+
+
+/*Ho creato un super container in modo da poter portare sulla sinistra la lista senza che toccasse "il bordo del pc" */
+#supercontainer{
+
+    width: 700px; /*larghezza del supercontainer*/
+    margin: 0 auto; /*centra il supercontainer*/
+    background-color: rgb(255, 255, 255); /*sfondo bianco, usato solo per capire la centratura del container*/
+    ;
+}
+
+/*regolo la lista*/
+.list{
+    list-style-type: none; /*toglie i pallini*/
+    padding: 10px 0; /*padding top e bottom 10px, padding right e left 0*/
+    text-align: left; /*allinea a sinistra*/
+    padding-left: 10px; /*padding a sinistra del container */
+    padding-top: 10px;
+    
 }
 
